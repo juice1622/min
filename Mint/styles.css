@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    background-color: #F8EEE1;
+    color:#31302F
+    
+}
+
+header {
+    display: block;
+}
+
+.navbar {
+    background-color: #F8EEE1;
+    padding: 0.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
+    transform: translateY(-70px);
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+    color: #31302F;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item__column {
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: #312f2f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar-utils {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-search {
+    border-style: none;
+    cursor: pointer;
+    padding-right: 1.5rem;
+    background-color: #F8EEE1;
+}
+
+.btn-login {
+    border-style: none;
+    cursor: pointer;
+    background-color: #F8EEE1;
+}
+
+.about1 {
+    background-color: #FE9B88;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about1__title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about1__content {
+    font-size: 24px;
+}
+
+.about2 {
+    background-color: #ffd700;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about2__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about2__content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services__title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service {
+    background-color: #ffcc00;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #FE9B88;
+    padding: 20px 0;
+    text-align: center;
+}
